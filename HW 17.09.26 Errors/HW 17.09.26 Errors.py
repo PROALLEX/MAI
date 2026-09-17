@@ -6,7 +6,7 @@ elif a==2:
     # 2. (RuntimeError / Exception)
     print(10 / 0)
 elif a==3:
-    # 3. Семантическая ошибка (SemanticError)
+    # 3. (SemanticError)
     print(unknown)
 elif a==4:
     # 4. (LogicalError)
