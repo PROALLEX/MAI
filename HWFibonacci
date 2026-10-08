@@ -1,0 +1,7 @@
+a, b = 0, 1
+c = 0 
+n = int(input("Вывести чисел: "))
+while c < n:
+    print(a, end=" ")
+    a, b = b, a + b
+    c += 1
