@@ -1,0 +1,9 @@
+a = [int(input("Х коорд вектора a: ")),int(input("У коорд вектора a: "))]
+b=[int(input("Х коорд вектора b: ")),int(input("У коорд вектора b: "))]
+Chtodelat = int(input("1 - сложение\n2 - вычитание\n3 - умножение\n"))
+if Chtodelat ==1:
+    print(f"Вектор с({a[0] + b[0]},{a[1] + b[1]})")
+elif Chtodelat == 2:
+    print(f"Вектор с({a[0] - b[0]},{a[1] - b[1]})")
+elif Chtodelat == 3:
+    print(f"Ответ: {(a[0] * b[0]) + (a[1] * b[1])}")
